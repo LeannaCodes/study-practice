@@ -1,42 +1,10 @@
-#logo {
-    border-radius: 50%;
-    width: 50%;
+
+header {
+    background-color: lavender;
+    color: violet;
 }
 
-h1 {
-    color: blueviolet
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px 50px;
-}
-
-.grid-item-1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-
-.grid-item-2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-
-.grid-item-3 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    }
-
-.grid-item-4 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
+nav ul {
+    list-style: none;
+    display:flex
 }
